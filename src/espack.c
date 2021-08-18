@@ -27,7 +27,7 @@
 #include "fat_filelib.h"
 #include "espack.h"
 
-#define ESPACK_VERSION  "1.0"
+#define ESPACK_VERSION  "1.1"
 
 int verbose = 0;
 static char *g_file_buf = NULL;

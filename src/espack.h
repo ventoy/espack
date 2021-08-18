@@ -43,9 +43,9 @@ extern int verbose;
 #else
 #include <unistd.h>
 #include <stdint.h>
-#include <linux/limits.h>
+//#include <linux/limits.h>
 #define debug(fmt, args...) if (verbose) printf("[V] "fmt, ##args)
-#define ESP_MAX_PATH PATH_MAX
+#define ESP_MAX_PATH 4096
 #define strcpy_s(a, b, c)  strncpy(a, c, b)
 #define sprintf_s snprintf
 #define esp_remove remove
