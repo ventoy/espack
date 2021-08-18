@@ -6,7 +6,7 @@ Make a directory to an ESP disk image.
 1. Download the released zip file from [(here)](https://github.com/ventoy/espack/releases), for example `espack-1.0.zip` and then decompress it.
 2. Put all you files/directories/subdirectories... under `ESP` folder.
 3. Run `sh esp.sh` in linux or click the `esp.bat` in Windows.
-4. A image file `esp.img` will be created in current directory.
+4. An image file `esp.img` will be created in current directory.
 
 # 使用方法
 1. 从 [(这里)](https://github.com/ventoy/espack/releases) 下载发布的 zip 文件，例如 `espack-1.0.zip`，然后解压开。
