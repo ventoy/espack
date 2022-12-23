@@ -8,8 +8,9 @@ Make a directory to an ESP disk image.  (把目录整体打包成一个 ESP 分�
 4. An image file `esp.img` (you can rename it as you want) will be created in current directory.
 
 # Note
-1. By default I put a `BOOTX64.EFI` file in the `EFI` directory as an example, it's UEFI shell.efi. You can replace it with your UEFI app.  
-2. You can pack different EFI files for different architectures together, for example `BOOTX64.EFI` `BOOTIA32.EFI` `BOOTAA64.EFI` ...     
+1. By default I put a `BOOTX64.EFI` file in the `EFI` directory as an example, it's UEFI shell.efi. You should replace it with your UEFI app.  
+2. If you use a case sensitive file-system you have to (manually) merge the folders `EFI` and `BOOT` or replace it (and don't forget `BOOTX64.EFI`).  
+3. You can pack different EFI files for different architectures together, for example `BOOTX64.EFI` `BOOTIA32.EFI` `BOOTAA64.EFI` ...     
   
   
   
